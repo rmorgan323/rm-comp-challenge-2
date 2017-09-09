@@ -1,0 +1,587 @@
+* {
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	font-weight: 300;
+	line-height: 1.3;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+body {
+	background-color: #eee;
+}
+
+nav {
+	background-image: url('../assets/merry-melodies-bg.svg');
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.19);
+
+}
+
+article {
+	margin: 5px;
+}
+
+h1 {
+	font-family: 'Alegreya SC', serif;
+	color: #fff;
+	margin: 15px 5px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.h1-span {
+	font-family: 'Alegreya SC', serif;
+	opacity: .5;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0;
+}
+
+h3 {
+	font-size: 13px;
+	margin: 0;
+	opacity: .5;
+}
+
+h4 {
+	font-size: 26px;
+	margin: 10px 8px 1px;
+	color: #bbb;
+}
+
+h5 {
+	font-family: 'Alegreya SC', serif;
+	color: white;
+	opacity: .6;
+	cursor: pointer;
+	margin: 5px 6px;
+	font-size: 23px;
+}
+
+h5:hover {
+	opacity: 1;
+}
+
+h6 {
+	font-size: 13px;
+	margin: 10px;
+	color: #fff;
+	opacity: .6;
+	cursor: pointer;
+}
+
+h6:hover {
+	opacity: 1;
+}
+
+p {
+	margin-top: 1px;
+	opacity: .5;
+	margin-bottom: 10px;
+}
+
+.card-font {
+	font-family: 'Alegreya SC', serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: -9px;
+}
+
+/******  nav styles  ******/
+
+nav {
+	background-color: #333;
+	padding: 5px 16px 0;
+}
+
+.nav-top-row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-top-row img {
+	width: 17px;
+	opacity: .6;
+}
+
+#dropdown-image {
+	width: 14px;
+}
+
+.nav-bottom-row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-bottom-row img {
+	width: 17px;
+}
+
+.bottom-row-left,
+.bottom-row-center,
+.bottom-row-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 27px;
+}
+
+.bottom-row-left {
+	margin-left: 0;
+}
+
+.bottom-row-home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+}
+
+.bottom-row-home img {
+	width: 33px;
+}
+
+.line {
+	width: 1132px;
+	border-top: 10px solid #ddd;
+	position: relative;
+	top: 19px;
+
+}
+
+
+
+/******  main/section styles  ******/
+
+.all-cards {
+	box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.19);
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: auto;
+	width: 1240px;
+}
+
+.go-arrow-icons {
+	cursor: pointer;
+	width: 52px;
+	opacity: .5;
+}
+
+.go-arrow-icons:hover {
+	opacity: .8;
+}
+
+.go-arrow-icons-dark {
+	width: 52px;
+	opacity: .6;
+}
+
+.go-arrow-icons-dark:hover {
+	opacity: 1;
+}
+
+#card-1 .card-top-section {
+	background-image: url('../assets/Daffy_Duck.svg');
+}
+
+#card-2 .card-top-section {
+	background-image: url('../assets/Marvin_the_Martian.svg');
+}
+
+#card-3 .card-top-section {
+	background-image: url('../assets/Wile_E_Coyote.svg');
+}
+
+#card-4 .card-top-section {
+	background-image: url('../assets/Yosemite_Sam.svg');
+}
+
+#card-5 .card-top-section {
+	background-image: url('../assets/taz.svg');
+}
+
+#card-6 .card-top-section {
+	background-image: url('../assets/Sylvester_the_Cat.svg');
+}
+
+#card-7 .card-top-section {
+	background-image: url('../assets/foghorn_leghorn.png');
+}
+
+#card-8 .card-top-section {
+	background-image: url('../assets/elmer_fudd.png');
+}
+
+#card-4 .counter, #card-7 .counter, .playlist-green {
+	color: #CDF0BC;
+	opacity: 1;
+}
+
+#card-2 .counter, #card-8 .counter, .playlist-blue {
+	color: #C7E8FF;
+	opacity: 1;
+}
+
+#card-1 .counter, .playlist-red {
+	color: #FFD8D2;
+	opacity: 1;
+}
+
+#card-5 .counter, .playlist-orange {
+	color: #FEDFD0;
+	opacity: 1;
+}
+
+#card-6 .counter, .playlist-purple {
+	color: #E0D3EF;
+	opacity: 1;
+}
+
+#card-3 .counter, .playlist-yellow {
+	color: #FFFCC9;
+	opacity: 1;
+}
+
+.card-link-box {
+	padding: 5px 7px 13px;
+	margin: 2px 4px;
+	height: 55px;
+	box-shadow: inset 0 0 5px #333;
+}
+
+.green-link-box {
+	background-color: #CEF1BD;
+}
+
+.blue-link-box {
+	background-color: #CEEAFF;
+}
+
+.orange-link-box {
+	background-color: #FED9C8;
+}
+
+.purple-link-box {
+	background-color: #E0D3EF;
+}
+
+.yellow-link-box {
+	background-color: #FFFA98;
+}
+
+.red-link-box {
+	background-color: #FFD8D2;
+}
+
+.card-link-box a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	word-wrap: break-word;
+}
+
+.card-top-section {
+	background-image: url('../assets/Soda Butte - Yellowstone.png');
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 16px 23px 10px 14px;
+	height: 116px;
+	width: 300px;
+	background-size: contain;
+}
+
+.counter {
+	font-size: 32px;
+	margin: 0;
+}
+
+.top-counter {
+	font-size: 32px;
+	margin: 0;
+	opacity: .8;
+}
+
+.top-counter-bright {
+	opacity: 1;
+}
+
+.card-top-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0;
+}
+
+.card-top-left {
+	margin-top: 0;
+}
+
+.card-bottom-section {
+	padding: 14px 15px 10px;
+	background-color: #555;
+	width: 300px;
+	border-top: 7px solid #777;
+}
+
+.card-bottom-section h3 {
+	margin: 12px 0 1px;
+	font-weight: 500;
+}
+
+
+
+
+/******  MEDIA QUERIES  ******/
+
+/*
+@media screen and (min-width: 100px) {
+
+	article {
+		margin: .4vw;
+	}
+
+	h1 {
+		font-size: 1.6vw;
+		color: #fff;
+		margin: .75vw .25vw;
+		font-weight: 800;
+	}
+
+	h2 {
+		font-size: 1vw;
+		font-weight: 800;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: .65vw;
+		margin: 0;
+	}
+
+	h4 {
+		font-size: 1.3vw;
+		margin: 1.1vw .4vw .6vw;
+	}
+
+	h5 {
+		font-size: .664vw;
+		color: white;
+		opacity: .6;
+		cursor: pointer;
+		margin: .25vw .3vw;
+	}
+
+	h5:hover {
+		opacity: 1;
+	}
+
+	h6 {
+		font-size: .65vw;
+		margin: .5vw;
+		color: #fff;
+		opacity: .6;
+		cursor: pointer;
+	}
+
+	h6:hover {
+		opacity: 1;
+	}
+
+	p {
+		margin-top: .15vw;
+		font-size: .8vw;
+	}
+*/
+	/******  nav styles  ******/
+/*
+	nav {
+		background-color: #333;
+		padding: .25vw .8vw 0;
+	}
+
+	.nav-top-row {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.nav-top-row img {
+		width: 1.05vw;
+	}
+
+	#dropdown-image {
+		width: .7vw;
+	}
+
+	.nav-bottom-row {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.nav-bottom-row img {
+		width: .85vw;
+	}
+
+	.bottom-row-left,
+	.bottom-row-center,
+	.bottom-row-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: .5vw;
+	}
+
+	.bottom-row-left {
+		margin-left: 0;
+	}
+
+	.bottom-row-home {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+	}
+
+	.bottom-row-home img {
+		width: 1.65vw;
+	}
+*/
+	/******  main/section styles  ******/
+
+/*	section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin: auto;
+		width: 64vw;
+	}
+
+	.go-arrow-icons {
+		width: 3vw;
+	}
+
+	.card-top-section {
+		background-image: url('../assets/Soda Butte - Yellowstone.png');
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding: .8vw 1.15vw .5vw .7vw;
+		height: 6.2vw;
+		width: 15.2vw;
+	}
+
+	.counter {
+		font-size: 1.75vw;
+		margin: 0;
+	}
+
+	.card-top-right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+	}
+
+	.card-top-left {
+		margin-top: 0;
+	}
+
+	.card-bottom-section {
+		padding: .8vw;
+		background-color: #fff;
+		width: 15.2vw;
+	}
+
+	.card-bottom-section h3 {
+		margin: .6vw 0 .1vw;
+		font-weight: 500;
+	}
+
+	.card-link-box {
+		background-color: #eee;
+		padding: .25vw .35vw .65vw;
+		margin: .9vw .2vw;
+		height: 2.25vw;
+	}
+
+}*/
+
+@media screen and (max-width: 1259px) {
+	section {
+		width: 930px;
+	}
+	.line {
+		width: 825px;
+	}
+}
+
+@media screen and (max-width: 945px) {
+	section {
+		width: 620px;
+	}
+	.line {
+		width: 514px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	h1 {
+		margin: 0 5px 6px;
+	}
+
+	.nav-bottom-row {
+		display: block;
+		margin: auto;
+		width: 212px;
+	}
+
+	.bottom-row-left,
+	.bottom-row-center,
+	.bottom-row-right {
+		/*display: flex;*/
+		justify-content: flex-start;
+		margin: 0;
+		margin-right: auto;
+		
+	}
+
+	.bottom-row-home {
+		justify-content: center;
+	}
+
+	.bottom-row-home img {
+		margin-bottom: 7px;
+	}
+}
+
+
+@media screen and (max-width: 637px) {
+	section {
+		width: 310px;
+	}
+	.line {
+		width: 204px;
+	}
+
+	
+}
+
+
+
+
+
+
