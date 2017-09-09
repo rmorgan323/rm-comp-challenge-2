@@ -156,8 +156,6 @@ nav {
 
 }
 
-
-
 /******  main/section styles  ******/
 
 .all-cards {
@@ -183,6 +181,7 @@ section {
 }
 
 .go-arrow-icons-dark {
+	cursor: pointer;
 	width: 52px;
 	opacity: .6;
 }
@@ -340,184 +339,7 @@ section {
 	font-weight: 500;
 }
 
-
-
-
 /******  MEDIA QUERIES  ******/
-
-/*
-@media screen and (min-width: 100px) {
-
-	article {
-		margin: .4vw;
-	}
-
-	h1 {
-		font-size: 1.6vw;
-		color: #fff;
-		margin: .75vw .25vw;
-		font-weight: 800;
-	}
-
-	h2 {
-		font-size: 1vw;
-		font-weight: 800;
-		margin: 0;
-	}
-
-	h3 {
-		font-size: .65vw;
-		margin: 0;
-	}
-
-	h4 {
-		font-size: 1.3vw;
-		margin: 1.1vw .4vw .6vw;
-	}
-
-	h5 {
-		font-size: .664vw;
-		color: white;
-		opacity: .6;
-		cursor: pointer;
-		margin: .25vw .3vw;
-	}
-
-	h5:hover {
-		opacity: 1;
-	}
-
-	h6 {
-		font-size: .65vw;
-		margin: .5vw;
-		color: #fff;
-		opacity: .6;
-		cursor: pointer;
-	}
-
-	h6:hover {
-		opacity: 1;
-	}
-
-	p {
-		margin-top: .15vw;
-		font-size: .8vw;
-	}
-*/
-	/******  nav styles  ******/
-/*
-	nav {
-		background-color: #333;
-		padding: .25vw .8vw 0;
-	}
-
-	.nav-top-row {
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-	}
-
-	.nav-top-row img {
-		width: 1.05vw;
-	}
-
-	#dropdown-image {
-		width: .7vw;
-	}
-
-	.nav-bottom-row {
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-	}
-
-	.nav-bottom-row img {
-		width: .85vw;
-	}
-
-	.bottom-row-left,
-	.bottom-row-center,
-	.bottom-row-right {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: .5vw;
-	}
-
-	.bottom-row-left {
-		margin-left: 0;
-	}
-
-	.bottom-row-home {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-left: auto;
-	}
-
-	.bottom-row-home img {
-		width: 1.65vw;
-	}
-*/
-	/******  main/section styles  ******/
-
-/*	section {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		margin: auto;
-		width: 64vw;
-	}
-
-	.go-arrow-icons {
-		width: 3vw;
-	}
-
-	.card-top-section {
-		background-image: url('../assets/Soda Butte - Yellowstone.png');
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-		padding: .8vw 1.15vw .5vw .7vw;
-		height: 6.2vw;
-		width: 15.2vw;
-	}
-
-	.counter {
-		font-size: 1.75vw;
-		margin: 0;
-	}
-
-	.card-top-right {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 0;
-	}
-
-	.card-top-left {
-		margin-top: 0;
-	}
-
-	.card-bottom-section {
-		padding: .8vw;
-		background-color: #fff;
-		width: 15.2vw;
-	}
-
-	.card-bottom-section h3 {
-		margin: .6vw 0 .1vw;
-		font-weight: 500;
-	}
-
-	.card-link-box {
-		background-color: #eee;
-		padding: .25vw .35vw .65vw;
-		margin: .9vw .2vw;
-		height: 2.25vw;
-	}
-
-}*/
 
 @media screen and (max-width: 1259px) {
 	section {
@@ -535,8 +357,14 @@ section {
 	.line {
 		width: 514px;
 	}
-}
+	.bottom-row-left,
+	.bottom-row-center,
+	.bottom-row-right {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 
+}
 
 @media screen and (max-width: 768px) {
 	h1 {
@@ -568,7 +396,6 @@ section {
 	}
 }
 
-
 @media screen and (max-width: 637px) {
 	section {
 		width: 310px;
@@ -576,8 +403,6 @@ section {
 	.line {
 		width: 204px;
 	}
-
-	
 }
 
 
