@@ -14,6 +14,9 @@
 
 body {
 	background-color: #eee;
+	background-image: url('../assets/forest-bg.png');
+	height: 100%;
+	background-position: center center;
 }
 
 nav {
@@ -55,8 +58,8 @@ h3 {
 
 h4 {
 	font-size: 26px;
-	margin: 10px 8px 1px;
-	color: #bbb;
+	margin: 10px 8px 3px;
+	color: #aaa;
 }
 
 h5 {
@@ -159,7 +162,7 @@ nav {
 	width: 1132px;
 	border-top: 10px solid #ddd;
 	position: relative;
-	top: 19px;
+	top: 21px;
 
 }
 
@@ -228,7 +231,8 @@ section {
 }
 
 #card-8 .card-top-section {
-	background-image: url('../assets/elmer_fudd.png');
+	background-color: #43B1FF;
+	background-image: url('../assets/elmer_fudd2.png');
 }
 
 #card-4 .counter, #card-7 .counter, .playlist-green {
