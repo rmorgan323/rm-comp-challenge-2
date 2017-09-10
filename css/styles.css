@@ -15,8 +15,8 @@
 body {
 	background-color: #eee;
 	background-image: url('../assets/forest-bg.png');
-	height: 100%;
-	background-position: center center;
+	height: 100vh;
+	background-position: center bottom;
 }
 
 nav {
