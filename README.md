@@ -7,3 +7,6 @@ Using the `flex-wrap` property, allowed me to keep the bottom row to the left.  
 The design is tested on Chrome, Firefox, and Safari, on all screen widths.  A few things rendered differently on Firefox and had to be tweaked, mainly with the body background image.  Also, the text inside the link boxes on the cards was different on Firefox and was changed to make sure it worked.
 
 For the design, I chose Looney Toons characters, and used bright colors.  It's a busier design than I would normally create, but is intentionally so, due to the frenetic, colorful, and fast-paced show that Merrie Melodies was. A plain, clean page, with loads of white space, in my opinion, wouldn't fit the subject matter.
+
+![screenshot](assets/static-comp-2-complete.png)
+![screenshot](assets/static-comp-2-comp.png)
