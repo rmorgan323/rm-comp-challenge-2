@@ -14,6 +14,4 @@ For the design, I chose Looney Toons characters, and used bright colors.  It's a
 
 ********
 
-Finished Product
-
 ![screenshot](assets/static-comp-2-complete.png)
